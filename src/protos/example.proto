@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message Person {
+  string lname = 1;
+  string fname = 2;
+  string dob = 3;
+}
+
+message PersonList {
+  repeated Person people = 1;
+}
+
+
